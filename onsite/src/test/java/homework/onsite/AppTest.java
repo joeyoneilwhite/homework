@@ -33,6 +33,8 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+    	Multiplier m=new Multiplier();
+    	int res = m.go(4, 4);
+        assertTrue( res==16 );
     }
 }
